@@ -1,0 +1,66 @@
+.main-song-img {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-song-img img {
+  border-radius: 20px;
+  width: 260px;
+  height: 260px;
+  box-shadow: 4px 15px 18px -5px #97a4b5, -4px 5px 30px -5px #97a4b5;
+}
+
+.song-progress-bar {
+  margin: 0px 30px;
+  height: 25px;
+  display: flex;
+  position: relative;
+}
+
+.song-progress-bar__column {
+  color: grey;
+  font-size: 13px;
+}
+
+.song-progress-bar__column:first-child {
+  width: 60%;
+  border-bottom: 4px solid black;
+}
+
+.song-progress-bar__column:last-child {
+  width: 40%;
+  border-bottom: 4px solid #e6e6e6;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.song-progress-bar .fa-circle {
+  position: absolute;
+  font-size: 10px;
+  left: 190px;
+  top: 18px;
+}
+
+.song-play-bar {
+  margin: 60px 30px auto 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.song-play-bar div {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.song-play-bar .fa-repeat,
+.fa-shuffle {
+  color: grey;
+}

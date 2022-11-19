@@ -1,0 +1,142 @@
+.artist-img {
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+}
+
+.artist-img img {
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  box-shadow: 0px 5px 30px 2px #E9D4DE;
+}
+
+.btn-in-the-middle {
+  display: flex;
+  justify-content: center;
+}
+
+.rounded-rectangle {
+  width: 120px;
+  height: 45px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.rounded-rectangle:first-child {
+  background-color: black;
+  color: white;
+}
+
+.rounded-rectangle:last-child {
+  margin-left: 20px;
+  background-color: white;
+  color: grey;
+  box-shadow: 0 2px 15px 3px #ECECF1;
+}
+
+.rounded-rectangle:last-child .fa-heart {
+  color: black;
+  margin-right: 9px;
+  font-size: 19px;
+}
+
+.playlist {
+  margin: 30px 15px auto 17px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.playlist-song {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.playlist-song__left {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.playlist-song__left img {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.playlist-song__middle {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.artist {
+  color: grey;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.song {
+  font-weight: 800;
+  margin-top: 8px;
+  font-size: 17px;
+}
+
+.playlist-song__right {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.playlist-song:nth-child(2) {
+  box-shadow: 0 7px 17px 6px #ECECF1;
+  border-radius: 20px;
+  position: relative;
+}
+
+.playlist-song:nth-child(2) .fa-chart-simple {
+  position: absolute;
+  top: 33px;
+  left: 33px;
+  color: white;
+}
+
+.first-screen {
+  position: relative;
+}
+
+.control-box {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background-color: black;
+  color: white;
+  width: 350px;
+  height: 65px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.control-box__column:first-child {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.control-box__column:last-child {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

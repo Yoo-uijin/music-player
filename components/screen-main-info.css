@@ -1,0 +1,22 @@
+.screen-main-info {
+  margin: 38px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen-main-info__title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.screen-main-info__text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 13px;
+  color: grey;
+}
+
+.second-screen .screen-main-info {
+  margin-top: 60px;
+}
